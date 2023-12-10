@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="calculator icon.png">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="container">
+
+            <br>
+            <h1 style="color: white;text-align: center;">Calculadora</h1>
+            <br>
+            <div style="text-align: center;">
+                <input type="text" class="display" disabled>
+            </div>
+            
+
+            
+                <div class="keys">
+                    <table>
+                        <tr></tr>
+                        <div class="row">
+                            <tr>
+                                <button value="C" class="operator">C</button>
+                                <button value="<"><</button>
+                                <button value="/" class="operator">/</button>
+                                <button value="*" class="operator">×</button>
+                            </tr>
+                            
+                        </div> 
+                        <div class="row">
+                            <tr>
+                                <button value="7">7</button>
+                                <button value="8">8</button>
+                                <button value="9">9</button>
+                                <button value="-" class="operator">-</button>
+                            </tr>  
+                        </div>
+                        <div class="row">
+                            <tr>
+                                <button value="4">4</button>
+                                <button value="5">5</button>
+                                <button value="6">6</button>
+                                <button value="+" class="operator">+</button>
+                            </tr>
+                            
+                        </div>
+                        <div class="row">
+                            <tr>
+                                <td><button value="1">1</button></td>
+                                <td><button value="2">2</button></td>
+                                <td><button value="3">3</button></td>
+                                <td rowspan="2"><button value="=" class="operator" style="height: 130px;">=</button></td>   
+                            </tr>
+                        </div>
+                        <div class="row">
+                            <tr>
+                                <td colspan="2"><button value="0" style="width: 130px;">0</button></td>
+                                <td ><button value="." class="operator" >.</button></td>        
+                            </tr> 
+                        </div>
+                    </table>
+                </div>  
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

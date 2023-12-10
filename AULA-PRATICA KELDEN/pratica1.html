@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelden Mourato || LECC21</title>
+    <link rel="icon" href="ISUTC LOGO.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+        Resolução de exercicios da aula prática
+    </h1>
+    </header>
+    
+    <p> <b>HTML(Hypertext Markup Language)</b> - Linguangem standard para web_ é a Linguangempara para descrever a estrutura da pagina web.</h2><br>
+    <p> <b>CSS(Cascading Style Sheet)</b> - Look & Layout_ é a estrutura para descrever a apresentação  das páginas web. <br> Incluindo cores, layout e fontes.</h2><br>
+    <p> <b>JS(JAVASCRIPT Web)</b> - Scripting para comportamento dinâmico_é um código de programação que não precisa de pré-processamento. </h2>
+    <div id = "tabela">
+        <table >
+            <tr>
+                <th></th>
+                <th>Maputo</th>
+                <th>Vilanculos</th>
+                <th>Inhambane</th>
+                <th>Beira</th>
+            </tr>
+            <tr>
+                <th>Maputo</th>
+                <td></td>
+                <td>276</td>
+                <td>228</td>
+                <td>448</td>
+            </tr>
+            <tr>
+                <th>Vilanculos</th>
+                <td>276</td>
+                <td></td>
+                <td>127</td>
+                <td>132</td>
+            </tr>
+            <tr>
+                <th>Inhambane</th>
+                <td>228</td>
+                <td>127</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Beira</th>
+                <td>488</td>
+                <td>132</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div id="location">
+        <img src="ISUTC LOGO.png" alt="Logotipo do ISUTC" style= "width: 100px; height: 100px; margin-top: 0; margin-bottom: 0;">
+         <p style="background-color: darkgray; width: 550px;">
+            Prolong. da Av. Kim Il Sung (IFT/TDM) Edifício <br> D1 <br>
+            Maputo,Moçambique <br>
+            <a href="www.facebook.com/isutc" style="color: black;text-decoration: none;">www.facebook.com/isutc</a><br>
+            <a href="www.transcom.co.mz/isutc" style="font-size: 25px; color: black;text-decoration: none;">www.transcom.co.mz/isutc</a>
+         </p>
+    </div>
+   <hr> 
+   <div class="data-js">
+        <button  onclick="dia()">
+            Clique aqui para obter a data e a hora actual
+        </button >
+        <p id="day"></p>
+        <script> 
+            
+            function dia(){
+                document.getElementById('day').innerHTML = Date()
+            }
+        </script>
+   </div> 
+    <hr>
+   <div id="semana6-js">
+        <p>pagina do ISUTC</p>
+        <a href="https://www.isutc.ac.mz/" target="_blank">www.isutc.ac.mz</a> <br>
+       
+       <br>
+        <div id="frame">
+           <iframe width="420" height="345" src="https://www.youtube.com/embed/OHN8Ze4te70" title="Seus primeiros passos no JavaScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       </div>
+       
+   </div>
+   <hr>
+   <h2 style="font-size: 16px;">Aula prática JavaScript</h2>
+   <hr>
+   
+   <a href="exercicios.html">Exercicios</a>  <a href="calculadora/index.html">Calculadora</a>
+
+   <hr>
+   <div class="lampada">
+        <img src="img/off.gif" alt="lampada" width="200px" height="200px" id="bulbImage"><br>
+        <button type="button" onclick="document.getElementById('bulbImage').src ='img/on.gif'">turn on the light</button>
+        <button type="button" onclick="document.getElementById('bulbImage').src ='img/off.gif'">turn off the light</button>
+   </div>
+   
+   
+</body>
+</html>
